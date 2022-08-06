@@ -7,12 +7,14 @@ public class playerController : MonoBehaviour
     public float speed;
 
     private Rigidbody2D rb;
-    private Vector2 moveVelocity;
 
+    //Vetores de movimentação
+    private Vector2 moveVelocity;
+    private Vector2 moveInput;
+
+    private Vector2 lastDirection;
 
     public Animator animator;
-
-    
 
     void Start()
     {
@@ -21,12 +23,9 @@ public class playerController : MonoBehaviour
 
     void Update()
     {
-        Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        moveVelocity = moveInput.normalized * speed;
+        GetInput();
 
-        animator.SetFloat("HorizontalMovement", moveInput.x);
-        animator.SetFloat("VerticalMovement", moveInput.y);
-        animator.SetFloat("Magnitude", moveInput.magnitude);
+        Animate();
 
     }
 
@@ -34,6 +33,33 @@ public class playerController : MonoBehaviour
     {
         rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
 
+    }
+
+    //Função para pegar o input do usuário
+    void GetInput()
+    {
+
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
+
+        if ((moveX == 0 && moveY == 0) && moveInput.x != 0 || moveInput.y != 0)
+        {
+            lastDirection = moveInput;
+        }
+
+        moveInput = new Vector2(moveX, moveY);//coleta os valores direcionais
+        moveVelocity = moveInput.normalized * speed;//multiplica pelo valor de velocidade
+    }
+
+    //Função para animações
+    void Animate()
+    {
+        animator.SetFloat("HorizontalMovement", moveInput.x);
+        animator.SetFloat("VerticalMovement", moveInput.y);
+        animator.SetFloat("Magnitude", moveInput.magnitude);
+
+        animator.SetFloat("LastMoveX", lastDirection.x);
+        animator.SetFloat("LastMoveY", lastDirection.y);
     }
 
 }

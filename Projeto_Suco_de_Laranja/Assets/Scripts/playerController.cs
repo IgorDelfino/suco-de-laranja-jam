@@ -9,6 +9,11 @@ public class playerController : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveVelocity;
 
+
+    public Animator animator;
+
+    
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -18,10 +23,17 @@ public class playerController : MonoBehaviour
     {
         Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         moveVelocity = moveInput.normalized * speed;
+
+        animator.SetFloat("HorizontalMovement", moveInput.x);
+        animator.SetFloat("VerticalMovement", moveInput.y);
+        animator.SetFloat("Magnitude", moveInput.magnitude);
+
     }
 
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
+
     }
+
 }

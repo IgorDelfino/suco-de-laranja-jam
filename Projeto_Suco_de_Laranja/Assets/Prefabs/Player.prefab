@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 476334576112657219}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,9 +115,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.005, y: -0.13}
+  m_Offset: {x: -0.02, y: -0.82}
   serializedVersion: 2
-  m_Radius: 0.02890366
+  m_Radius: 0.17
 --- !u!50 &476334576112657279
 Rigidbody2D:
   serializedVersion: 4

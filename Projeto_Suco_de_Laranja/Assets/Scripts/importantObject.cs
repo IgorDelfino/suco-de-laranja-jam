@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class importantObject : MonoBehaviour
 {
     bool isInObjectTrigger = false;
-    public int objectId;
+    public Dialogue dialogue;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -21,7 +22,7 @@ public class importantObject : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) & isInObjectTrigger)
         {
-            Debug.Log("estou interagindo com o objeto: " + objectId);
+            FindObjectOfType<DialogueManager>().RunDialogue(dialogue);
         }
     }
 }

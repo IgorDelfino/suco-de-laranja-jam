@@ -222,7 +222,51 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &399481090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 399481092}
+  - component: {fileID: 399481091}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &399481091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399481090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f71b5bf5d06e604a985a42ed80bbc2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &399481092
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399481090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &693242576
 GameObject:
@@ -290,7 +334,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1317776995
 GameObject:
@@ -402,7 +446,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1317776999
 Rigidbody2D:
@@ -512,7 +556,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1900358473
 PrefabInstance:
@@ -539,7 +583,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6287268004321479723, guid: 99085a8f078447b4e9ca5b7b4d8ab912, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6287268004321479723, guid: 99085a8f078447b4e9ca5b7b4d8ab912, type: 3}
       propertyPath: m_LocalPosition.x
@@ -583,7 +627,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6931178967691383282, guid: 99085a8f078447b4e9ca5b7b4d8ab912, type: 3}
       propertyPath: objectId
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6931178967691383282, guid: 99085a8f078447b4e9ca5b7b4d8ab912, type: 3}
+      propertyPath: dialogue.nameOfObject
+      value: Violin
+      objectReference: {fileID: 0}
+    - target: {fileID: 6931178967691383282, guid: 99085a8f078447b4e9ca5b7b4d8ab912, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6931178967691383282, guid: 99085a8f078447b4e9ca5b7b4d8ab912, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: I used to love my violin...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6931178967691383282, guid: 99085a8f078447b4e9ca5b7b4d8ab912, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: Once the strings broke i could never reach my listeners anymore
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99085a8f078447b4e9ca5b7b4d8ab912, type: 3}
@@ -596,7 +656,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 476334576112657218, guid: 1e07c5dd5d771dc4ea75cecb02491f50, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 476334576112657218, guid: 1e07c5dd5d771dc4ea75cecb02491f50, type: 3}
       propertyPath: m_LocalPosition.x
@@ -726,7 +786,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8038111429876547482, guid: c3190d147b23aad49bba179eadd05231, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8038111429876547482, guid: c3190d147b23aad49bba179eadd05231, type: 3}
       propertyPath: m_AnchorMax.x

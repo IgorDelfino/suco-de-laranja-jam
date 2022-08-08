@@ -183,8 +183,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fbd7aaa11426ab54bb7e278e8d6f4758, type: 2}
-  m_sharedMaterial: {fileID: 3507877053477382049, guid: fbd7aaa11426ab54bb7e278e8d6f4758, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fab2a1477da7bdc4884687d627b73a55, type: 2}
+  m_sharedMaterial: {fileID: 3450747966540956968, guid: fab2a1477da7bdc4884687d627b73a55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -390,6 +390,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 64030110}
   storyText: {fileID: 1414369606}
+  characterAvatar: {fileID: 0}
+  player: {fileID: 476948538}
   animator: {fileID: 2124443545}
 --- !u!4 &399481092
 Transform:
@@ -406,6 +408,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &476948538 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 476334576112657278, guid: 1e07c5dd5d771dc4ea75cecb02491f50, type: 3}
+  m_PrefabInstance: {fileID: 476334574936428896}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &693242576
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,8 +674,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fbd7aaa11426ab54bb7e278e8d6f4758, type: 2}
-  m_sharedMaterial: {fileID: 3507877053477382049, guid: fbd7aaa11426ab54bb7e278e8d6f4758, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fab2a1477da7bdc4884687d627b73a55, type: 2}
+  m_sharedMaterial: {fileID: 3450747966540956968, guid: fab2a1477da7bdc4884687d627b73a55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -800,7 +807,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e63e4449587d7fd44a03c5e3e294b6f2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 276d3be94c7266240ab69c50790b1a9d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

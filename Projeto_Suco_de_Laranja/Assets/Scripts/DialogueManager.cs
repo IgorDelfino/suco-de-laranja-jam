@@ -10,6 +10,8 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text storyText;
     public Image characterAvatar;
 
+    public GameObject player;
+
     public Animator animator;
 
     private Queue<string> sentences;
@@ -35,6 +37,7 @@ public class DialogueManager : MonoBehaviour
 
     public void instanciateDialogue(Dialogue dialogue)
     {
+        player.GetComponent<playerController>().enabled = false;//desativa o script playerController
         Debug.Log("Instanciating story about: " + dialogue.nameOfObject);
 
         sentences.Clear();
@@ -86,5 +89,6 @@ public class DialogueManager : MonoBehaviour
     {
         isDialogueHappening = false;
         animator.SetBool("IsOnDialogue", false);
+        player.GetComponent<playerController>().enabled = true;//ativa o script playerController
     }
 }

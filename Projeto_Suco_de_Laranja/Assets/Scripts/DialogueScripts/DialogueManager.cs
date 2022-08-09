@@ -19,6 +19,8 @@ public class DialogueManager : MonoBehaviour
     private Queue<Sprite> emotions;
     public bool isDialogueHappening = false;
 
+    public int beep = 1;
+
     void Start()
     {
         sentences = new Queue<string>();
@@ -81,6 +83,15 @@ public class DialogueManager : MonoBehaviour
         foreach (char letter in sentence.ToCharArray())
         {
             storyText.text += letter;
+
+            if (beep == 1)
+            {
+                FindObjectOfType<AudioManager>().Play("PlayerBeep1");
+            } else
+            {
+                FindObjectOfType<AudioManager>().Play("PlayerBeep2");
+            }
+
             yield return new WaitForSeconds(typingSpeed);
         }
     }

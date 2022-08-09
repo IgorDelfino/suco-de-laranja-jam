@@ -3192,6 +3192,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &942868308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 28265355496737260, guid: 66cab952b1b01b44e85606ea7966b436, type: 3}
+  m_PrefabInstance: {fileID: 1964200958}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &942868309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942868308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 372bd60f5103f164c9f2e5fece4c7e95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerBeep1
+    clip: {fileID: 8300000, guid: 357d78d8d4b1d8b4aaa2e52d8924eb24, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: PlayerBeep2
+    clip: {fileID: 8300000, guid: 6613cfdb34db6194e87d8d1c49084856, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
 --- !u!1 &945426848
 GameObject:
   m_ObjectHideFlags: 0
@@ -11201,7 +11229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 28265355496737260, guid: 66cab952b1b01b44e85606ea7966b436, type: 3}
       propertyPath: m_Name
-      value: DialogueManager
+      value: GameManager
       objectReference: {fileID: 0}
     - target: {fileID: 28265355496737261, guid: 66cab952b1b01b44e85606ea7966b436, type: 3}
       propertyPath: player

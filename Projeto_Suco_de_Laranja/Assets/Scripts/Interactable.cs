@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class Interactable : MonoBehaviour
 {
-    DialogueManager dialogueManager;
+    //DialogueManager dialogueManager;
 
     public bool isInRange = false;
     public KeyCode interactKey;
@@ -15,7 +15,7 @@ public class Interactable : MonoBehaviour
 
     private void Awake()
     {
-        dialogueManager = GameObject.Find("DialogueManager").GetComponent<DialogueManager>();
+        //dialogueManager = GameObject.Find("DialogueManager").GetComponent<DialogueManager>();
     }
 
     void Update()

@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 public class Interactable : MonoBehaviour
 {
+    DialogueManager dialogueManager;
 
     public bool isInRange = false;
     public KeyCode interactKey;
@@ -12,10 +13,13 @@ public class Interactable : MonoBehaviour
 
     public GameObject key;
 
-    // Update is called once per frame
+    private void Awake()
+    {
+        dialogueManager = GameObject.Find("DialogueManager").GetComponent<DialogueManager>();
+    }
+
     void Update()
     {
-        //Debug.Log("A");
         if (isInRange)
         {
             if (Input.GetKeyDown(interactKey))
@@ -27,23 +31,19 @@ public class Interactable : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //Debug.Log("Player está no trigger1");
         if (collision.gameObject.CompareTag("Player"))
         {
             isInRange = true;
             key.SetActive(true);
-            //Debug.Log("Player está no trigger");
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        //Debug.Log("Player saiu do trigger1");
         if (collision.gameObject.CompareTag("Player"))
         {
             isInRange = false;
             key.SetActive(false);
-            //Debug.Log("Player saiu do trigger");
         }
     }
 

@@ -11,12 +11,13 @@ public class DialogueManager : MonoBehaviour
     public Image characterAvatar;
 
     public GameObject player;
+    public float typingSpeed;
 
     public Animator animator;
 
     private Queue<string> sentences;
     private Queue<Sprite> emotions;
-    private bool isDialogueHappening = false;
+    public bool isDialogueHappening = false;
 
     void Start()
     {
@@ -38,7 +39,6 @@ public class DialogueManager : MonoBehaviour
     public void instanciateDialogue(Dialogue dialogue)
     {
         player.GetComponent<playerController>().enabled = false;//desativa o script playerController
-        Debug.Log("Instanciating story about: " + dialogue.nameOfObject);
 
         sentences.Clear();
 
@@ -81,7 +81,7 @@ public class DialogueManager : MonoBehaviour
         foreach (char letter in sentence.ToCharArray())
         {
             storyText.text += letter;
-            yield return null;
+            yield return new WaitForSeconds(typingSpeed);
         }
     }
 

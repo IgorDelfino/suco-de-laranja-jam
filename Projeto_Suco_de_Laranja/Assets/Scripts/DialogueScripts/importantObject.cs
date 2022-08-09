@@ -4,17 +4,23 @@ using UnityEngine;
 
 public class importantObject : MonoBehaviour
 {
-    bool isInObjectTrigger = false;
+    public bool isInObjectTrigger = false;
     public Dialogue dialogue;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        isInObjectTrigger = true;
+        if (other.gameObject.CompareTag("Player"))
+        {
+            isInObjectTrigger = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        isInObjectTrigger = false;
+        if (other.gameObject.CompareTag("Player"))
+        {
+            isInObjectTrigger = false;
+        }
     }
 
     void Update()

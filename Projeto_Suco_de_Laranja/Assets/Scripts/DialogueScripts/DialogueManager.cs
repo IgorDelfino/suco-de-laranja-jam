@@ -27,14 +27,14 @@ public class DialogueManager : MonoBehaviour
         emotions = new Queue<Sprite>();
     }
 
-    public void RunDialogue(Dialogue dialogue)
+    public void RunDialogue(Dialogue dialogue,ref bool hasFirstDialogue)
     {
         if (!isDialogueHappening)
         {
             instanciateDialogue(dialogue);
         }
 
-        DisplayNextSentence();
+        DisplayNextSentence(ref hasFirstDialogue);
         return;
     }
 
@@ -60,11 +60,13 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void DisplayNextSentence()
+    public void DisplayNextSentence(ref bool hasFirstDialogue)
     {
         if (sentences.Count == 0)
         {
             EndDialogue();
+
+            hasFirstDialogue = false;
             return;
         }
 

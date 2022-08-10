@@ -9,6 +9,9 @@ public class Interactable : MonoBehaviour
     public KeyCode interactKey;
     public UnityEvent interactAction;
 
+    public bool hasFirstDialogue;
+    public Dialogue firstDialogue;
+
     public GameObject key;
 
     private pauseMenu pauseMenu;
@@ -24,7 +27,14 @@ public class Interactable : MonoBehaviour
         {
             if (Input.GetKeyDown(interactKey) && pauseMenu.gameIsPaused == false)
             {
-                interactAction.Invoke();
+                if (hasFirstDialogue==true)
+                {
+                    FindObjectOfType<DialogueManager>().RunDialogue(firstDialogue,ref hasFirstDialogue);
+                } else
+                {
+                    interactAction.Invoke();
+                }
+                    
             }
         }
     }

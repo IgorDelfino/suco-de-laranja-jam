@@ -251,7 +251,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_7
+      name: "Viol\xE3o"
       rect:
         serializedVersion: 2
         x: 99
@@ -608,7 +608,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_24
+      name: "Su\xE9ter"
       rect:
         serializedVersion: 2
         x: 50
@@ -671,7 +671,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_27
+      name: Livro_de_receitas
       rect:
         serializedVersion: 2
         x: 115
@@ -692,7 +692,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_28
+      name: Caderno_de_desenhos
       rect:
         serializedVersion: 2
         x: 100
@@ -713,7 +713,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_29
+      name: Coleira_do_gato
       rect:
         serializedVersion: 2
         x: 116
@@ -1018,33 +1018,31 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Objects_35: 1543404221
-      Objects_7: -84850231
       Objects_23: 1589012500
       Objects_38: -1487772142
       Objects_12: 1095878742
       Objects_26: 773247353
-      Objects_29: -1711642489
       Lamp_0: -1292478655
       deskLamp_0: 242686750
       Objects_36: -1209515386
-      Objects_28: -635247203
       Objects_31: 1329388526
+      "Su\xE9ter": 556150270
       Objects_33: 342988524
       Objects_9: -1291327386
       Objects_4: -268355538
       Objects_25: 1386652979
+      "Viol\xE3o": -84850231
       Objects_8: 640954748
       Objects_11: -1152325547
       Objects_10: -14809818
       Objects_22: -402873730
+      Livro_de_receitas: -1954438671
       Objects_30: -1305481366
       Objects_3: -212628810
       Objects_13: -561905001
       Objects_16: -1165692421
       Objects_17: 1022397160
       Objects_19: -1725304399
-      Objects_27: -1954438671
-      Objects_24: 556150270
       Objects_5: -1890372332
       Objects_6: -1949596370
       Objects_0: -168725823
@@ -1055,11 +1053,13 @@ TextureImporter:
       Objects_2: 1562649334
       Objects_21: 662263215
       Objects_32: 1962002471
+      Coleira_do_gato: -1711642489
       Objects_37: -330826309
       Objects_20: 1203932577
       Lamp_1: 1209598339
       Objects_1: -1344139916
       Objects_34: 852607399
+      Caderno_de_desenhos: -635247203
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

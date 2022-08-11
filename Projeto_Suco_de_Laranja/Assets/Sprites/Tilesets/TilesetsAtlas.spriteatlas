@@ -55,6 +55,7 @@ SpriteAtlas:
   - {fileID: -78942258, guid: b530c1468c62aca4c97a8ef42982592d, type: 3}
   - {fileID: -502453716, guid: b530c1468c62aca4c97a8ef42982592d, type: 3}
   - {fileID: -1845154952, guid: b530c1468c62aca4c97a8ef42982592d, type: 3}
+  - {fileID: -26343855, guid: b530c1468c62aca4c97a8ef42982592d, type: 3}
   - {fileID: -510640005, guid: b530c1468c62aca4c97a8ef42982592d, type: 3}
   - {fileID: 1220160515, guid: b530c1468c62aca4c97a8ef42982592d, type: 3}
   - {fileID: -13507640, guid: b530c1468c62aca4c97a8ef42982592d, type: 3}
@@ -118,6 +119,7 @@ SpriteAtlas:
   - FloorTiles_2
   - FloorTiles_1
   - FloorTiles_0
+  - FloorTiles_7
   - FloorTiles_6
   - FloorTiles_5
   - FloorTiles_4

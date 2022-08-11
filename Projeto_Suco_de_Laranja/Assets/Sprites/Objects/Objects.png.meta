@@ -1090,6 +1090,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: LittleBox
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 81
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c692ab662b79ecb4d8efeca1c8978413
+      internalID: -1781486413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phone
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 66
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e20f601191d4d47ba2314edd0c04a6
+      internalID: -256987063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1134,6 +1176,7 @@ TextureImporter:
       Box_10: -1193112608
       Box_9: 1329388526
       wardrobe: -168725823
+      Phone: -256987063
       sweater: 556150270
       Box_6: -1165692421
       laptop: -1949596370
@@ -1146,6 +1189,7 @@ TextureImporter:
       Box_7: 1022397160
       collar: -1711642489
       Lamp_1: 1209598339
+      LittleBox: -1781486413
       guitar: -84850231
       Box_1: -1291327386
       PinkKey: 1657925849

@@ -68,6 +68,11 @@ SpriteAtlas:
   - {fileID: 1447714026, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: 62445927, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: 363048616, guid: a184969f49df205419a62399bcc30481, type: 3}
+  - {fileID: 1961524021, guid: a184969f49df205419a62399bcc30481, type: 3}
+  - {fileID: -1806065891, guid: a184969f49df205419a62399bcc30481, type: 3}
+  - {fileID: 1795852688, guid: a184969f49df205419a62399bcc30481, type: 3}
+  - {fileID: -1735051275, guid: a184969f49df205419a62399bcc30481, type: 3}
+  - {fileID: 740384297, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: -1370918536, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: 950502966, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: 1589838333, guid: a184969f49df205419a62399bcc30481, type: 3}
@@ -77,11 +82,9 @@ SpriteAtlas:
   - {fileID: 1344746068, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: -1376588158, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: 829298714, guid: a184969f49df205419a62399bcc30481, type: 3}
-  - {fileID: 1961524021, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: 1123513427, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: -665316100, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: -364730261, guid: a184969f49df205419a62399bcc30481, type: 3}
-  - {fileID: -1735051275, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: -1667651958, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: 1480368131, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: 1790167405, guid: a184969f49df205419a62399bcc30481, type: 3}
@@ -94,24 +97,22 @@ SpriteAtlas:
   - {fileID: 294527169, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: 435465342, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: -1495550980, guid: a184969f49df205419a62399bcc30481, type: 3}
+  - {fileID: -1366960581, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: 1201429736, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: -1399088691, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: 1347030343, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: -982266893, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: 376305045, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: -1878122159, guid: a184969f49df205419a62399bcc30481, type: 3}
-  - {fileID: 740384297, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: -974329142, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: -1135910453, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: -1298294292, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: 673643613, guid: a184969f49df205419a62399bcc30481, type: 3}
-  - {fileID: 1795852688, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: 577879815, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: 849977043, guid: a184969f49df205419a62399bcc30481, type: 3}
-  - {fileID: 560493799, guid: a184969f49df205419a62399bcc30481, type: 3}
+  - {fileID: 1255974463, guid: a184969f49df205419a62399bcc30481, type: 3}
+  - {fileID: -1251112526, guid: a184969f49df205419a62399bcc30481, type: 3}
   - {fileID: -764858960, guid: a184969f49df205419a62399bcc30481, type: 3}
-  - {fileID: -1366960581, guid: a184969f49df205419a62399bcc30481, type: 3}
-  - {fileID: -1806065891, guid: a184969f49df205419a62399bcc30481, type: 3}
   m_PackedSpriteNamesToIndex:
   - FloorTiles_3
   - FloorTiles_2
@@ -130,6 +131,11 @@ SpriteAtlas:
   - WallTiles_4
   - WallTiles_9
   - WallTiles_8
+  - Painting5
+  - Painting4
+  - Painting1
+  - Painting3
+  - Painting2
   - WallTiles_30
   - WallTiles_31
   - WallTiles_32
@@ -139,11 +145,9 @@ SpriteAtlas:
   - WallTiles_22
   - WallTiles_35
   - WallTiles_21
-  - WallTiles_45
   - WallTiles_36
   - WallTiles_20
   - WallTiles_16
-  - WallTiles_44
   - WallTiles_37
   - WallTiles_27
   - WallTiles_17
@@ -156,24 +160,22 @@ SpriteAtlas:
   - WallTiles_25
   - WallTiles_15
   - WallTiles_41
+  - Towel
   - WallTiles_24
   - WallTiles_12
   - WallTiles_40
   - WallTiles_13
   - WallTiles_43
   - WallTiles_10
-  - WallTiles_42
   - WallTiles_29
   - WallTiles_11
   - WallTiles_28
   - WallTiles_49
-  - WallTiles_48
   - WallTiles_18
   - WallTiles_19
-  - WallTiles_52
+  - outside_1
+  - outside_2
   - WallTiles_53
-  - WallTiles_50
-  - WallTiles_51
   m_RenderDataMap: {}
   m_Tag: TilesetsAtlas
   m_IsVariant: 0

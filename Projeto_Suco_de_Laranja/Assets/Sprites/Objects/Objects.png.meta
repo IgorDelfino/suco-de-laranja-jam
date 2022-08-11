@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Objects_0
+      name: wardrobe
       rect:
         serializedVersion: 2
         x: 0
@@ -125,15 +125,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_1
+      name: bookshelf1
       rect:
         serializedVersion: 2
         x: 16
         y: 96
         width: 16
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -146,15 +146,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_2
+      name: bookshelf2
       rect:
         serializedVersion: 2
         x: 32
         y: 96
         width: 16
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -167,15 +167,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_3
+      name: bed
       rect:
         serializedVersion: 2
         x: 48
         y: 112
         width: 48
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,15 +188,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_4
+      name: desk
       rect:
         serializedVersion: 2
         x: 48
         y: 96
         width: 32
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -209,15 +209,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_5
+      name: table
       rect:
         serializedVersion: 2
         x: 80
         y: 96
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,7 +230,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_6
+      name: laptop
       rect:
         serializedVersion: 2
         x: 98
@@ -251,7 +251,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_7
+      name: guitar
       rect:
         serializedVersion: 2
         x: 99
@@ -272,7 +272,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_8
+      name: plant
       rect:
         serializedVersion: 2
         x: 112
@@ -293,15 +293,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_9
+      name: Box_1
       rect:
         serializedVersion: 2
         x: 128
         y: 112
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -314,15 +314,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_10
+      name: Box_3
       rect:
         serializedVersion: 2
         x: 128
         y: 96
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -335,15 +335,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_11
+      name: Box_4
       rect:
         serializedVersion: 2
         x: 144
         y: 96
         width: 16
         height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -356,15 +356,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_12
+      name: Box_2
       rect:
         serializedVersion: 2
         x: 145
         y: 121
         width: 15
         height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -377,15 +377,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_13
+      name: Box_5
       rect:
         serializedVersion: 2
         x: 160
         y: 96
         width: 19
         height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -398,15 +398,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_14
+      name: Box_11
       rect:
         serializedVersion: 2
         x: 181
         y: 116
         width: 11
         height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -419,15 +419,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_15
+      name: Box_10
       rect:
         serializedVersion: 2
         x: 182
         y: 96
         width: 10
         height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -440,15 +440,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_16
+      name: Box_6
       rect:
         serializedVersion: 2
         x: 128
         y: 80
         width: 8
         height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -461,15 +461,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_17
+      name: Box_7
       rect:
         serializedVersion: 2
         x: 136
         y: 80
         width: 8
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -482,15 +482,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_18
+      name: sidesofa1
       rect:
         serializedVersion: 2
         x: 13
         y: 64
         width: 19
         height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -503,15 +503,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_19
+      name: sofa
       rect:
         serializedVersion: 2
         x: 32
         y: 64
         width: 48
         height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -524,15 +524,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_20
+      name: sidesofa2
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 19
         height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -545,7 +545,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_21
+      name: tv
       rect:
         serializedVersion: 2
         x: 0
@@ -566,7 +566,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_22
+      name: fridge
       rect:
         serializedVersion: 2
         x: 32
@@ -587,7 +587,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_23
+      name: oven
       rect:
         serializedVersion: 2
         x: 48
@@ -608,7 +608,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_24
+      name: sweater
       rect:
         serializedVersion: 2
         x: 50
@@ -629,7 +629,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_25
+      name: washer
       rect:
         serializedVersion: 2
         x: 64
@@ -650,7 +650,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_26
+      name: KitchenTable
       rect:
         serializedVersion: 2
         x: 80
@@ -671,7 +671,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_27
+      name: RecipeBook
       rect:
         serializedVersion: 2
         x: 115
@@ -692,7 +692,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_28
+      name: Notebook
       rect:
         serializedVersion: 2
         x: 100
@@ -713,13 +713,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_29
+      name: collar
       rect:
         serializedVersion: 2
-        x: 116
+        x: 115
         y: 80
-        width: 7
-        height: 4
+        width: 10
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -776,7 +776,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_32
+      name: ClothingBin
       rect:
         serializedVersion: 2
         x: 181
@@ -797,7 +797,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_33
+      name: TrashBin
       rect:
         serializedVersion: 2
         x: 181
@@ -818,7 +818,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_34
+      name: toiletSide
       rect:
         serializedVersion: 2
         x: 18
@@ -860,7 +860,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_36
+      name: toiletFront
       rect:
         serializedVersion: 2
         x: 2
@@ -923,15 +923,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_30
+      name: Box_8
       rect:
         serializedVersion: 2
         x: 144
         y: 77
         width: 19
         height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -944,15 +944,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_31
+      name: Box_9
       rect:
         serializedVersion: 2
         x: 163
         y: 86
         width: 11
         height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -965,7 +965,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_37
+      name: sinkSide
       rect:
         serializedVersion: 2
         x: 96
@@ -986,7 +986,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_38
+      name: sinkFront
       rect:
         serializedVersion: 2
         x: 113
@@ -1006,6 +1006,90 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: lightswitch
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 74
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c46597d245aa684cab61172bdf8c248
+      internalID: -1910130075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowKey
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0528dab72d9a62840b6e0552294cab71
+      internalID: -585413136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkKey
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 64
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d552ca342bd9d45ab7686a6ce63b02
+      internalID: 1657925849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portrait
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 66
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c149c04b0b9b89468541e99a968d31b
+      internalID: -1260967483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1018,48 +1102,54 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Objects_35: 1543404221
-      Objects_7: -84850231
-      Objects_23: 1589012500
-      Objects_38: -1487772142
-      Objects_12: 1095878742
-      Objects_26: 773247353
-      Objects_29: -1711642489
+      sofa: -1725304399
+      washer: 1386652979
+      lightswitch: -1910130075
+      ClothingBin: 1962002471
+      bookshelf2: 1562649334
+      LightSwitch: 469950184
+      toiletFront: -1209515386
+      RecipeBook: -1954438671
+      KitchenTable: 773247353
+      plant: 640954748
+      desk: -268355538
+      Box_3: -14809818
       Lamp_0: -1292478655
+      Box_8: -1305481366
       deskLamp_0: 242686750
-      Objects_36: -1209515386
-      Objects_28: -635247203
-      Objects_31: 1329388526
-      Objects_33: 342988524
-      Objects_9: -1291327386
-      Objects_4: -268355538
-      Objects_25: 1386652979
-      Objects_8: 640954748
-      Objects_11: -1152325547
-      Objects_10: -14809818
-      Objects_22: -402873730
-      Objects_30: -1305481366
-      Objects_3: -212628810
-      Objects_13: -561905001
-      Objects_16: -1165692421
-      Objects_17: 1022397160
-      Objects_19: -1725304399
-      Objects_27: -1954438671
-      Objects_24: 556150270
-      Objects_5: -1890372332
-      Objects_6: -1949596370
-      Objects_0: -168725823
-      Objects_14: -1759995285
+      bookshelf1: -1344139916
+      fridge: -402873730
+      Objects_9: 2043189529
+      table: -1890372332
+      sinkFront: -1487772142
+      sidesofa1: -1885376168
+      portrait: -1260967483
+      sinkSide: -330826309
+      Notebook: -635247203
+      bed: -212628810
+      YellowKey: -585413136
+      Box_5: -561905001
+      TrashBin: 342988524
+      sidesofa2: 1203932577
+      Box_10: -1193112608
+      Box_9: 1329388526
+      wardrobe: -168725823
+      sweater: 556150270
+      Box_6: -1165692421
+      laptop: -1949596370
+      Box_4: -1152325547
+      tv: 662263215
+      Box_2: 1095878742
       desklamp_1: 1883507566
-      Objects_15: -1193112608
-      Objects_18: -1885376168
-      Objects_2: 1562649334
-      Objects_21: 662263215
-      Objects_32: 1962002471
-      Objects_37: -330826309
-      Objects_20: 1203932577
+      toiletSide: 852607399
+      Box_11: -1759995285
+      Box_7: 1022397160
+      collar: -1711642489
       Lamp_1: 1209598339
-      Objects_1: -1344139916
-      Objects_34: 852607399
+      guitar: -84850231
+      Box_1: -1291327386
+      PinkKey: 1657925849
+      oven: 1589012500
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

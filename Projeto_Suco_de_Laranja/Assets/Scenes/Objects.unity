@@ -5966,24 +5966,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1749450540 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1870281383624747189, guid: 3a2b9239637386f498e6f4a8a2abec0a, type: 3}
-  m_PrefabInstance: {fileID: 1870281383364264304}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1749450545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1749450540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b40e83defe8e5f44bb94481e1564b2dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 0}
 --- !u!114 &1780369055 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 819959340227468388, guid: 9f2fcd5efb87a9344916ba7ed89ab07d, type: 3}

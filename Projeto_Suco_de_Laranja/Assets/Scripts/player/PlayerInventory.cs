@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerInventory : MonoBehaviour
 {
     public bool hasKey;
+    public bool hasBoxKey;
     public int items=0;
 
     public void PickUpKey()
@@ -15,5 +16,10 @@ public class PlayerInventory : MonoBehaviour
     public void AddItem()
     {
         items++;
+    }
+
+    public void pickUpBoxKey()
+    {
+        hasBoxKey = true;
     }
 }

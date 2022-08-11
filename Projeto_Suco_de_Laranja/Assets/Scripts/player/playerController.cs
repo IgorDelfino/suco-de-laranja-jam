@@ -16,6 +16,8 @@ public class playerController : MonoBehaviour
 
     public Animator animator;
 
+    public AudioSource steps;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -26,6 +28,14 @@ public class playerController : MonoBehaviour
         GetInput();
 
         Animate();
+
+        if(moveInput.magnitude > 0)
+        {
+            steps.enabled = true;
+        } else
+        {
+            steps.enabled = false;
+        }
 
     }
 
@@ -61,5 +71,4 @@ public class playerController : MonoBehaviour
         animator.SetFloat("LastMoveX", lastDirection.x);
         animator.SetFloat("LastMoveY", lastDirection.y);
     }
-
 }

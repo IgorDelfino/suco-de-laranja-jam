@@ -165,7 +165,7 @@ PrefabInstance:
       objectReference: {fileID: 7350531832395053030}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: hasFirstDialogue
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.nameOfObject

@@ -40,7 +40,7 @@ public class DialogueManager : MonoBehaviour
 
     public void instanciateDialogue(Dialogue dialogue)
     {
-        player.GetComponent<playerController>().enabled = false;//desativa o script playerController
+        player.GetComponent<playerController>().enabled = false;
 
         sentences.Clear();
 
@@ -102,6 +102,6 @@ public class DialogueManager : MonoBehaviour
     {
         isDialogueHappening = false;
         animator.SetBool("IsOnDialogue", false);
-        player.GetComponent<playerController>().enabled = true;//ativa o script playerController
+        player.GetComponent<playerController>().enabled = true;
     }
 }

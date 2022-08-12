@@ -15,7 +15,7 @@ public class DropRecipe : MonoBehaviour
         if (shakes >= 2)
         {
             anim.SetTrigger("Drop");
-            interactable.SetActive(true);
+            StartCoroutine(AnimationCount());
         }
     }
 
@@ -23,4 +23,12 @@ public class DropRecipe : MonoBehaviour
     {
         shakes++;
     }
+
+    IEnumerator AnimationCount()
+    {
+        yield return new WaitForSeconds(0.36f);
+        FindObjectOfType<AudioManager>().Play("Drop");
+        interactable.SetActive(true);
+    }
+
 }

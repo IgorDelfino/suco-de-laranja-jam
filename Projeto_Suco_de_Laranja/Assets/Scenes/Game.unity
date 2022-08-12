@@ -324,8 +324,16 @@ PrefabInstance:
       value: Vaso 1
       objectReference: {fileID: 0}
     - target: {fileID: 6683234424944307161, guid: 5c81b13843077c14bbe7c8e249c0b7fe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6683234424944307161, guid: 5c81b13843077c14bbe7c8e249c0b7fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.564
+      value: 1.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 6683234424944307166, guid: 5c81b13843077c14bbe7c8e249c0b7fe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81b13843077c14bbe7c8e249c0b7fe, type: 3}
@@ -8078,6 +8086,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.24340725
       objectReference: {fileID: 0}
+    - target: {fileID: 4045444910184761110, guid: b03fc0fb29fa7ab46ac8587f76dde350, type: 3}
+      propertyPath: dialogue.nameOfObject
+      value: "Sof\xE1"
+      objectReference: {fileID: 0}
     - target: {fileID: 4045444910184761111, guid: b03fc0fb29fa7ab46ac8587f76dde350, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -14325,7 +14337,7 @@ MonoBehaviour:
   dialogue:
     nameOfObject: Interruptor
     sentences:
-    - "N\xE3o consigo enchergar nada..."
+    - "N\xE3o consigo enxergar nada..."
     emotions:
     - {fileID: 21300000, guid: 2dc9d866b16a31a4ca28531dee40cd76, type: 3}
     - {fileID: 21300000, guid: 2dc9d866b16a31a4ca28531dee40cd76, type: 3}
@@ -37821,7 +37833,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 1940388284, guid: b530c1468c62aca4c97a8ef42982592d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -40004,7 +40016,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 942868309, guid: 66cab952b1b01b44e85606ea7966b436, type: 3}
       propertyPath: sounds.Array.size
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 942868309, guid: 66cab952b1b01b44e85606ea7966b436, type: 3}
       propertyPath: sounds.Array.data[0].clip
@@ -40087,6 +40099,14 @@ PrefabInstance:
       value: Click
       objectReference: {fileID: 0}
     - target: {fileID: 942868309, guid: 66cab952b1b01b44e85606ea7966b436, type: 3}
+      propertyPath: sounds.Array.data[9].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 369c2d02e7cc6644691e0abf13b16d2d, type: 3}
+    - target: {fileID: 942868309, guid: 66cab952b1b01b44e85606ea7966b436, type: 3}
+      propertyPath: sounds.Array.data[9].name
+      value: Drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 942868309, guid: 66cab952b1b01b44e85606ea7966b436, type: 3}
       propertyPath: sounds.Array.data[2].pitch
       value: 1
       objectReference: {fileID: 0}
@@ -40112,6 +40132,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 942868309, guid: 66cab952b1b01b44e85606ea7966b436, type: 3}
       propertyPath: sounds.Array.data[8].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 942868309, guid: 66cab952b1b01b44e85606ea7966b436, type: 3}
+      propertyPath: sounds.Array.data[9].pitch
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 942868309, guid: 66cab952b1b01b44e85606ea7966b436, type: 3}
@@ -40148,6 +40172,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 942868309, guid: 66cab952b1b01b44e85606ea7966b436, type: 3}
       propertyPath: sounds.Array.data[8].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 942868309, guid: 66cab952b1b01b44e85606ea7966b436, type: 3}
+      propertyPath: sounds.Array.data[9].volume
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 942868309, guid: 66cab952b1b01b44e85606ea7966b436, type: 3}
@@ -42703,7 +42731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    nameOfObject: 
+    nameOfObject: Porta do quarto dos pais
     sentences:
     - "N\xE3o preciso entrar no quarto dos meus pais agora"
     emotions:

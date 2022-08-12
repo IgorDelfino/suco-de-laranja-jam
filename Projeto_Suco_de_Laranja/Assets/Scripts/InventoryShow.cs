@@ -8,6 +8,7 @@ public class InventoryShow : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.I))
         {
+            FindObjectOfType<AudioManager>().Play("Interact");
             toggle.Toggle();            
         }
     }

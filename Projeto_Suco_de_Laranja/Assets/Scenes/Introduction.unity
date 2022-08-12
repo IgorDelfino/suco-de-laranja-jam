@@ -328,7 +328,7 @@ PrefabInstance:
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 2bb1e828a53e3a3469fd737aa10553fd, type: 3}
+      objectReference: {fileID: 21300000, guid: 3910baa46e9fcdb4db0cdf9b8148df1b, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[1]
       value: 
@@ -336,15 +336,15 @@ PrefabInstance:
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[2]
       value: 
-      objectReference: {fileID: 21300000, guid: 2bb1e828a53e3a3469fd737aa10553fd, type: 3}
+      objectReference: {fileID: 21300000, guid: 63b216ae3b0fa034b9836dba37a13c19, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[3]
       value: 
-      objectReference: {fileID: 21300000, guid: 2bb1e828a53e3a3469fd737aa10553fd, type: 3}
+      objectReference: {fileID: 21300000, guid: 36221159160c4cb4b9c651646311f7f8, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[4]
       value: 
-      objectReference: {fileID: 21300000, guid: 2bb1e828a53e3a3469fd737aa10553fd, type: 3}
+      objectReference: {fileID: 21300000, guid: 2cdf5dfd02bec4e4c923ae53017690df, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.sentences.Array.data[0]
       value: ZZZZzzzzz ZZZZzzzzz ZZZZzzzzz
@@ -827,6 +827,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 942868309, guid: 66cab952b1b01b44e85606ea7966b436, type: 3}
+      propertyPath: sounds.Array.data[0].volume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 942868309, guid: 66cab952b1b01b44e85606ea7966b436, type: 3}
+      propertyPath: sounds.Array.data[1].volume
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 28265355496737258, guid: 66cab952b1b01b44e85606ea7966b436, type: 3}
       propertyPath: m_RootOrder
       value: 0

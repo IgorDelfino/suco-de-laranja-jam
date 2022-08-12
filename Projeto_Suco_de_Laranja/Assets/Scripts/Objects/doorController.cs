@@ -27,6 +27,7 @@ public class doorController : MonoBehaviour
     //Porta Destrancada
     public void EnterRoom()
     {
-            player.transform.position = new Vector2(position.x,position.y);       
+        player.transform.position = new Vector2(position.x,position.y);
+        FindObjectOfType<AudioManager>().Play("Door");
     }
 }

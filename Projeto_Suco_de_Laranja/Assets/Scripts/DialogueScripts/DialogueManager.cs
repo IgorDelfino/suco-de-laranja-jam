@@ -89,9 +89,12 @@ public class DialogueManager : MonoBehaviour
             if (beep == 1)
             {
                 FindObjectOfType<AudioManager>().Play("PlayerBeep1");
-            } else
+            } else if (beep == 2)
             {
                 FindObjectOfType<AudioManager>().Play("PlayerBeep2");
+            } else
+            {
+                FindObjectOfType<AudioManager>().Play("PlayerBeep");
             }
 
             yield return new WaitForSeconds(typingSpeed);

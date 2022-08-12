@@ -27,13 +27,14 @@ public class Interactable : MonoBehaviour
         {
             if (Input.GetKeyDown(interactKey) && pauseMenu.gameIsPaused == false)
             {
-                if (hasFirstDialogue==true)
+                /*if (hasFirstDialogue==true)
                 {
                     FindObjectOfType<DialogueManager>().RunDialogue(firstDialogue,ref hasFirstDialogue);
                 } else
                 {
                     interactAction.Invoke();
-                }
+                }*/
+                Interact();
                     
             }
         }
@@ -45,6 +46,18 @@ public class Interactable : MonoBehaviour
         {
             isInRange = true;
             key.SetActive(true);
+        }
+    }
+
+    public void Interact()
+    {
+        if (hasFirstDialogue == true)
+        {
+            FindObjectOfType<DialogueManager>().RunDialogue(firstDialogue, ref hasFirstDialogue);
+        }
+        else
+        {
+            interactAction.Invoke();
         }
     }
 

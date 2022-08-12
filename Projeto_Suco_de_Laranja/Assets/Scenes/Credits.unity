@@ -284,7 +284,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "<b>Artistas</b>\n\nNico\nAna\n\n<b>Roteirista</b>\n\n\xC1gatha\n\n<b>Game
-    Designer</b>\n\nDominique\n\n<b>Programa\xE7\xE3o</b>\n\nLuigi\nIgor\n\n<b>M\xFAsica</b>\n\nBifi\xE3o"
+    Designer</b>\n\nDominique Abell\n\n<b>Programa\xE7\xE3o</b>\n\nTheo Luigi\nIgor\n\n<b>M\xFAsica</b>\n\nBifi\xE3o"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 25fd11db65e20bc44b6a628b3352050e, type: 2}
   m_sharedMaterial: {fileID: -5320257806167202332, guid: 25fd11db65e20bc44b6a628b3352050e, type: 2}

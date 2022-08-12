@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ExitScript : MonoBehaviour
 {
+    public int numItems = 5;
     private PlayerInventory inventory;
     private DialogueTrigger trigger;
 
@@ -16,7 +17,7 @@ public class ExitScript : MonoBehaviour
 
     public void ExitHouse()
     {
-        if(inventory.items >= 6)
+        if(inventory.items >= 5)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);//vai pra próxima cena
         }

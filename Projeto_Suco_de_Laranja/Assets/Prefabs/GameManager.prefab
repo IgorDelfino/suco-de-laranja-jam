@@ -70,9 +70,15 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 357d78d8d4b1d8b4aaa2e52d8924eb24, type: 3}
     volume: 0.5
     pitch: 1
+    loop: 0
+    mute: 0
+    playOnAwake: 0
     source: {fileID: 0}
   - name: PlayerBeep2
     clip: {fileID: 8300000, guid: 6613cfdb34db6194e87d8d1c49084856, type: 3}
     volume: 0.5
     pitch: 1
+    loop: 0
+    mute: 0
+    playOnAwake: 0
     source: {fileID: 0}

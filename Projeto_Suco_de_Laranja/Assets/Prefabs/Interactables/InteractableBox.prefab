@@ -62,6 +62,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  hasFirstDialogue: 0
+  firstDialogue:
+    nameOfObject: 
+    sentences: []
+    emotions: []
   key: {fileID: 0}
 --- !u!61 &2213232009763327174
 BoxCollider2D:

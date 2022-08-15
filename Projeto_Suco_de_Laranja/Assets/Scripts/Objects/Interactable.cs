@@ -15,17 +15,19 @@ public class Interactable : MonoBehaviour
     public GameObject key;
 
     private pauseMenu pauseMenu;
+    private playerController playerController;
 
     private void Awake()
     {
         pauseMenu = FindObjectOfType<pauseMenu>();
+        playerController = FindObjectOfType<playerController>();
     }
 
     void Update()
     {
         if (isInRange)
         {
-            if (Input.GetKeyDown(interactKey) && pauseMenu.gameIsPaused == false)
+            if (Input.GetKeyDown(interactKey) && pauseMenu.gameIsPaused == false && playerController.triggers <= 1)
             {
                 /*if (hasFirstDialogue==true)
                 {
@@ -46,6 +48,7 @@ public class Interactable : MonoBehaviour
         {
             isInRange = true;
             key.SetActive(true);
+            playerController.triggers++;
         }
     }
 
@@ -67,6 +70,7 @@ public class Interactable : MonoBehaviour
         {
             isInRange = false;
             key.SetActive(false);
+            playerController.triggers--;
         }
     }
 

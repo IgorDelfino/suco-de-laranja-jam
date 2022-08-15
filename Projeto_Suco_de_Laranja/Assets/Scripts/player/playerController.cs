@@ -18,6 +18,8 @@ public class playerController : MonoBehaviour
 
     public AudioSource steps;
 
+    public int triggers;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();

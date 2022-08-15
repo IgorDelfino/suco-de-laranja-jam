@@ -8797,6 +8797,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 197569071443333125, guid: 2e5457995b5d9ac4c8899904a73d1b8f, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 197569071443333125, guid: 2e5457995b5d9ac4c8899904a73d1b8f, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 687921520}
@@ -8809,6 +8813,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 511116681}
     - target: {fileID: 197569071443333125, guid: 2e5457995b5d9ac4c8899904a73d1b8f, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1574262110}
+    - target: {fileID: 197569071443333125, guid: 2e5457995b5d9ac4c8899904a73d1b8f, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -8818,6 +8826,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 197569071443333125, guid: 2e5457995b5d9ac4c8899904a73d1b8f, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 197569071443333125, guid: 2e5457995b5d9ac4c8899904a73d1b8f, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 197569071443333125, guid: 2e5457995b5d9ac4c8899904a73d1b8f, type: 3}
@@ -8845,6 +8857,10 @@ PrefabInstance:
       value: AudioManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 197569071443333125, guid: 2e5457995b5d9ac4c8899904a73d1b8f, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: AudioManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 197569071443333125, guid: 2e5457995b5d9ac4c8899904a73d1b8f, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
       value: 1
       objectReference: {fileID: 0}
@@ -8858,6 +8874,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 197569071443333125, guid: 2e5457995b5d9ac4c8899904a73d1b8f, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 197569071443333125, guid: 2e5457995b5d9ac4c8899904a73d1b8f, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 197569071443333125, guid: 2e5457995b5d9ac4c8899904a73d1b8f, type: 3}
@@ -15992,11 +16012,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.size
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.sentences.Array.size
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[0]
@@ -16005,71 +16025,71 @@ PrefabInstance:
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: b86b1a139233f094b8f4f7f108d54ecb, type: 3}
+      objectReference: {fileID: 21300000, guid: becc64bbea1508d4f9d715e33ca5d923, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[2]
       value: 
-      objectReference: {fileID: 21300000, guid: becc64bbea1508d4f9d715e33ca5d923, type: 3}
+      objectReference: {fileID: 21300000, guid: a7afc7cc80d4e444fb854bcf65ebde3a, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[3]
       value: 
-      objectReference: {fileID: 21300000, guid: a7afc7cc80d4e444fb854bcf65ebde3a, type: 3}
+      objectReference: {fileID: 21300000, guid: 13d9ee9ae279205489d16debd877132c, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[4]
       value: 
-      objectReference: {fileID: 21300000, guid: 13d9ee9ae279205489d16debd877132c, type: 3}
+      objectReference: {fileID: 21300000, guid: 0d45b70d9cc3b0448abb1701597b1909, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[5]
       value: 
-      objectReference: {fileID: 21300000, guid: 0d45b70d9cc3b0448abb1701597b1909, type: 3}
+      objectReference: {fileID: 21300000, guid: 7e4ee613964fe0f40abc19779831c8d7, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[6]
       value: 
-      objectReference: {fileID: 21300000, guid: 7e4ee613964fe0f40abc19779831c8d7, type: 3}
+      objectReference: {fileID: 21300000, guid: 01bb8617214d90b4bb9cc9b0be698ab5, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[7]
       value: 
-      objectReference: {fileID: 21300000, guid: 01bb8617214d90b4bb9cc9b0be698ab5, type: 3}
+      objectReference: {fileID: 21300000, guid: d1cb9faa93938f34fa61d58d1b0e084a, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[8]
       value: 
-      objectReference: {fileID: 21300000, guid: d1cb9faa93938f34fa61d58d1b0e084a, type: 3}
+      objectReference: {fileID: 21300000, guid: 0d45b70d9cc3b0448abb1701597b1909, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[9]
       value: 
-      objectReference: {fileID: 21300000, guid: 0d45b70d9cc3b0448abb1701597b1909, type: 3}
+      objectReference: {fileID: 21300000, guid: 2bb1e828a53e3a3469fd737aa10553fd, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[10]
       value: 
-      objectReference: {fileID: 21300000, guid: 2bb1e828a53e3a3469fd737aa10553fd, type: 3}
+      objectReference: {fileID: 21300000, guid: 2dc9d866b16a31a4ca28531dee40cd76, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[11]
       value: 
-      objectReference: {fileID: 21300000, guid: 2dc9d866b16a31a4ca28531dee40cd76, type: 3}
+      objectReference: {fileID: 21300000, guid: 2cdf5dfd02bec4e4c923ae53017690df, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[12]
       value: 
-      objectReference: {fileID: 21300000, guid: 2cdf5dfd02bec4e4c923ae53017690df, type: 3}
+      objectReference: {fileID: 21300000, guid: 01bb8617214d90b4bb9cc9b0be698ab5, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[13]
       value: 
-      objectReference: {fileID: 21300000, guid: 01bb8617214d90b4bb9cc9b0be698ab5, type: 3}
+      objectReference: {fileID: 21300000, guid: bc3e31f77dc5a2d42872744dc101b35c, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[14]
       value: 
-      objectReference: {fileID: 21300000, guid: bc3e31f77dc5a2d42872744dc101b35c, type: 3}
+      objectReference: {fileID: 21300000, guid: f1601d1a5a3ac1547ae34227171f3d1d, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[15]
       value: 
-      objectReference: {fileID: 21300000, guid: f1601d1a5a3ac1547ae34227171f3d1d, type: 3}
+      objectReference: {fileID: 21300000, guid: 7e4ee613964fe0f40abc19779831c8d7, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[16]
       value: 
-      objectReference: {fileID: 21300000, guid: 7e4ee613964fe0f40abc19779831c8d7, type: 3}
+      objectReference: {fileID: 21300000, guid: bc3e31f77dc5a2d42872744dc101b35c, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[17]
       value: 
-      objectReference: {fileID: 21300000, guid: bc3e31f77dc5a2d42872744dc101b35c, type: 3}
+      objectReference: {fileID: 21300000, guid: 1acfe2dee730b444aa76f5eeeaa9f50e, type: 3}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.emotions.Array.data[18]
       value: 
@@ -16144,12 +16164,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.sentences.Array.data[16]
-      value: "As minhas mem\xF3rias sempre v\xE3o estar comigo, elas fazem parte
-        de quem eu sou, e v\xE3o me ajudar a mudar cada vez mais."
+      value: "Crescer n\xE3o \xE9 ruim, \xE9 necess\xE1rio."
       objectReference: {fileID: 0}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.sentences.Array.data[17]
-      value: "Crescer n\xE3o \xE9 ruim, \xE9 necess\xE1rio."
+      value: "Ent\xE3o vamos Ida, vamos terminar a mudan\xE7a!"
       objectReference: {fileID: 0}
     - target: {fileID: 5074952764754741112, guid: 12a23ae989318ae47930065311f337bf, type: 3}
       propertyPath: firstDialogue.sentences.Array.data[18]
